@@ -1,0 +1,27 @@
+name: music_player
+description: A simple music player app.
+
+publish_to: "none" 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/kolaveri.mp3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.4.0
+  file_picker: ^9.2.3
+  permission_handler: ^11.0.1
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
